@@ -1,0 +1,89 @@
+# Build artifacts
+build/
+*.o
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+
+# Compiled binaries and executables
+test_basic
+test_stress
+test_shutdown
+demo
+*.out
+
+# IDE and Editor files
+*.cbp
+*.layout
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.settings/
+.project
+.cproject
+
+# Object and dependency files
+*.o
+*.d
+*.su
+*.gch
+*.pch
+
+# Cmake and Build directories
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile.in
+aclocal.m4
+compile
+config.status
+configure
+depcomp
+install-sh
+missing
+stamp-h1
+autom4te.cache/
+.dirstamp
+
+# Dependencies
+*.lo
+*.la
+.libs/
+.deps/
+
+# Debug and profiling
+*.gcda
+*.gcno
+*.gcov
+gmon.out
+
+# Doxygen and documentation build
+docs/build/
+docs/html/
+docs/latex/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+*.log
+
+# Python (if used for build scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ctags and cscope
+tags
+cscope.out
+
+# Backup files
+*.bak
+*.backup
+*.tmp
